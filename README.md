@@ -16,6 +16,33 @@
   (A family member who does audio recording for a living sent me this as a hand-me-down.
    I will say that a good quality mic does matter.)
 
+### Equipment to get in the future?
+
+I borrowed a 15" Wacom Intuos Pro from a neighbor.  It "just works"
+on Linux via the USB cable. (My desktop doesn't have bluetooth.)
+
+The Intuos line seems to be the *de facto* standard for content creation
+applications.
+
+The tablet works well as an alternate input to a Zoom "white board".
+While it is clearly more ergonomic than a mouse, it is far more expensive
+and takes a lot of practice.
+
+Huion make tablets that can be 1/2 the price and show the screen. (Wacom
+units that show the screen are at least $600US.)  These Huion units
+require the [DIGImend](http://digimend.github.io/) drivers.
+
+My early thoughts are that these are probably useful, but that no one
+should get one unless either their institution will buy one to help
+with online teaching or they have other uses for them. (These things
+are common input devices for Inkscape, Krita, GIMP, Darktable, etc..)
+
+The PopOS GUI to configure the Wacom is limited.  One should be able
+to tell the stylus buttons to execute key strokes, but that isn't in the
+Wacom entry under Settings.  One may have to use the `xsetwacom` command
+line tool for this stuff.  This matters because it would be very cool
+to map the button to `Ctrl-Z` for Inkscape, for example.
+
 ## Recording screen casts
 
 I used [simplescreenrecorder](https://www.maartenbaert.be/simplescreenrecorder/):
