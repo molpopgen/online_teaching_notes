@@ -104,6 +104,17 @@ tempted to call `kazam` a dead project at this point.
 
 ### Mic input volume
 
+Getting the input audio levels right was the biggest challenge for me!
+
+I found the interaction between `alsamixer`, the `pulseaudio` GUI config tool,
+and the `simplescreenrecorder` setting to be quite irritating.  No matter what,
+though, I have to use `alsamixer` to specifically select and adjust the
+input volume for the Samson mic.  Once that is done, I can use either
+the ALSA or Pulse drivers in `simplescreenrecorder`.
+
+I imagine that more reading may clear things up, but I got it working after
+some fiddling and the most important thing to do is to do a mic test every day.
+
 ### Things to double check each time
 
 * Is your input device set to the expected mic?
