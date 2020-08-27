@@ -54,6 +54,13 @@ sudo apt install simplescreenrecorder
 I also tried [kazam](https://github.com/hzbd/kazam), but could never get
 input levels sorted out right.
 
+Mike Barker (`@barkerlab` on Twitter) pointed out OBS, which looks like a promising
+option:
+
+```sh
+sudo apt install obs-studio
+```
+
 ### The "show your face" trick
 
 You need a webcam for this!
