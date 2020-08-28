@@ -214,6 +214,11 @@ the `kdenlive` project files to Google Drive and a second internal
 drive on my machine.  It is easy enough for me to restore the original
 full path names if anything goes wrong. (Famous last words...)
 
+Important: versions prior to 20.04 (`kdenlive`, not Ubuntu!)
+have a bug creating the archive.  If necessary, install from
+the PPA! (The version that comes with Ubuntu 20.04 is 19.something
+and has this bug.)
+
 ## Closed-captioning
 
 UCI allows the videos to be uploaded to Yuja, which will auto-CC the file.
