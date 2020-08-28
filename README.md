@@ -201,6 +201,22 @@ Pressing `x` changes into "cut" mode and `s` gets you back in
 I used [this profile](https://store.kde.org/p/1333301), but I'm still exploring 
 best practices here.
 
+The rendering workflow is rather complex. I think the most efficient way for
+me personally will be:
+
+* Select all projects and open, spawning many `kdenlive` instances.
+* For each instance, generate the render script. (Press `Render`, select
+  your method, click `Generate script` and hit enter.  They'll
+  go in `~/Videos/kdenlive-renderqueue`.)  Close this instance of the program.
+* Then execute the following `bash` and just wait:
+
+```sh
+for i in *.mlt
+do
+melt $i
+done
+```
+
 ### Export for long-term storage
 
 By default, the project contains full paths to raw tracks,
